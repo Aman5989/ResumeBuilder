@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.resume-builder {
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #000000;
+}
+
+.section-list {
+  margin-top: 20px;
+  width: 903px;
+ height: 500px;
+ margin-left:20% ;
+}
+
+.section-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  margin-bottom: 10px;
+  /* background-color: #f5f5f5; */
+}
+
+.section-item:hover {
+  background-color: #ebebeb;
+}
+
+.drag-icon {
+  margin-right: 10px;
+}
+
+.circle-icon {
+  border: none;
+}
+
+
+
+
+.section-name {
+ 
+  text-align: left;
+  margin-left: 10px;
+  margin-right: auto;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.15px;
+
+/* Neutral Black  */
+
+color: #000000;
+}
+
+
+
+
+
+.section-edit,
+.section-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: right;
+  gap: 5px;
+  margin : 0;
+
+}
+
+.section-edit .edit-icon {
+  margin-right: 5px;
+}
+
+.section-toggle {
+  /* margin-left: auto; */
+  align-items: end;
+}
+
+
+
+.edit-icon {
+  /* margin-left: auto; */
+  align-items: end;
+}
+
+.active {
+  color: green;
+}
+
+.inactive {
+  color: red;
+}
+
+.save-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.save-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.save-button1{
+  margin-top: 0px;
+ 
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+.save-button1:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+
+.circle-icon {
+  border: none;
+}
+
+.section-divider {
+  width: 903px;
+  height: 0px;
+  background: #000000; /* Neutral Light Grey */
+  border: 1px solid #E6E6E6;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 10px 0;
+}
+
+
+
+
+.save-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 210px;
+  gap: 10px;
+  width: 429px;
+  height: 52px;
+  background: #8A4893;
+  border-radius: 10px;
+  margin: 0 auto; 
+  white-space: nowrap; 
+}
